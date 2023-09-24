@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 100px;
+    display: flex;
+}
+.wrapper{
+    height: 64vh;
+    width: 100%;
+}
+.navbar{
+    height: 100%;
+    width: 100%;
+}
+.navbar_start img{
+    width: 100%;
+    height: 100%;
+}
+.navbar_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-130px);
+}
+.navbar_text h3{
+    color: #FFF;
+    text-align: center;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.navbar_text span{
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+@media(max-width: 1440px){
+    .navbar_text{
+        transform: translateY(-100px);
+    }
+    .navbar_text h3{
+        font-size: 26px;
+    }
+    .navbar_text span{
+        font-size: 12px;
+    }
+}
+.section{
+    width: 100%;
+    height: auto;
+}
+.navbar_start{
+    height: 103%;
+}
+
+.section_start{
+    width: 100%;
+    height: 100%;
+    background: url("/img/background wall.png") no-repeat center center / cover;
+    display: flex;
+    justify-content: space-around;
+}
+.section_img{
+
+}
+.section_text{
+}
+.section_boxes{
+    width: 632px;
+}
+.section_box{
+    display: flex;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1px;
+    border: 1px solid rgba(103, 29, 0, 0.48);
+    background: rgba(0, 0, 0, 0.55);
+}
+.section_N{
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section_days{
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section_box-img{
+    display: flex;
+    align-items: center;
+    width: 45%;
+}
+.section_box-img img{
+    margin-right: 20px;
+
+}
+.section_box-img p{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.section-text{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 11px;
+    margin-bottom: 9px;
+}
+.section-text button{
+    color: #671D00;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 1px solid rgba(103, 29, 0, 0.48);
+    background: rgba(0, 0, 0, 0.55);
+    padding: 4px 8px;
+    cursor: pointer;
+}
+.section_Gtext p{
+    color: #416DF4;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+.section_price{
+    display: flex;
+}
+.section_price-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.section_price-img{
+    width: 230px;
+    height: 270px;
+}
+.section_price-img img{
+    height: 100%;
+}
+.section_price-box p{
+    color: #FFFFFF;
+    font-size: 40px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+.section_price-box button{
+    padding: 10px 30px;
+    background: yellow;
+    border: none;
+    border-radius: 5px;
+}
+
+@media (max-width: 1440px) {
+
+
+
+    .section-text{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        gap: 11px;
+        margin-bottom: 9px;
+    }
+    .section-text button{
+        color: #671D00;
+        text-align: center;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border: 1px solid rgba(103, 29, 0, 0.48);
+        background: rgba(0, 0, 0, 0.55);
+        padding: 4px 8px;
+        cursor: pointer;
+    }
+    .section_Gtext p{
+        color: #416DF4;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 30px;
+    }
+    .section_price{
+        display: flex;
+    }
+    .section_price-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .section_price-img{
+        height: 230px;
+    }
+
+    .section_price-box p{
+        color: #FFFFFF;
+        font-size: 40px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    .section_price-box button{
+        padding: 10px 30px;
+        background: yellow;
+        border: none;
+        border-radius: 5px;
+    }
+    .section_img img{
+        height: 80%;
+    }
+    .section_Gtext p{
+        padding-top: 40px;
+    }
+}
